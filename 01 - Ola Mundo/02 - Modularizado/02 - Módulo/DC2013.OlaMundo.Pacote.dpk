@@ -1,4 +1,4 @@
-package DC2013.CRUD.Federacao;
+package DC2013.OlaMundo.Pacote;
 
 {$R *.res}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
@@ -25,16 +25,14 @@ package DC2013.CRUD.Federacao;
 {$IMAGEBASE $400000}
 {$DEFINE DEBUG}
 {$ENDIF IMPLICITBUILDING}
-{$DESCRIPTION 'Delphi Conference 2013 - Mário Guedes - mario.guedes@arrayof.com.br'}
+{$DESCRIPTION 'DC2013 - BPL na Prática - mario.guedes@arrayof.com.br'}
 {$RUNONLY}
 {$IMPLICITBUILD ON}
 
 requires
-  rtl,
-  dbrtl,
-  dsnap;
+  rtl;
 
 contains
-  DC2013.CRUD.DataModule in 'DC2013.CRUD.DataModule.pas' {dmCRUDUF: TDataModule};
+  DC2013.OlaMundo.OlaMundo in 'DC2013.OlaMundo.OlaMundo.pas';
 
 end.

@@ -1,14 +1,14 @@
-program DC2013.Servidor;
+program DC2013.OlaMundo.CargaDinamica;
 
 uses
   Vcl.Forms,
-  DC2013.Servidor.View in 'DC2013.Servidor.View.pas' {Form1};
+  Unt_Principal in 'Unt_Principal.pas' {Form3};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm3, Form3);
   Application.Run;
 end.
