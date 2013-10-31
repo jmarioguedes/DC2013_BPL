@@ -41,14 +41,14 @@ var
   sMensagem: string;
 begin
 
-  // .                     /----------------------------> Namespace em ação (nome totalmente qualificado)
+  // .                     /---------------------> Namespace em ação (nome totalmente qualificado)
   // .                     |
-  // .                     |                  /---------> Regra de negócio isolada! \o/
+  // .                     |                  /--> Regra de negócio isolada! \o/
   // .                     |                  |
   // .         /----------------------\ /-----------\
   sMensagem := DC2013.OlaMundo.OlaMundo.GerarOlaMundo;
 
-  ShowMessage(sMensagem);  // --> Regra de visualização!
+  ShowMessage(sMensagem); // --> Regra de visualização!
 end;
 
 end.

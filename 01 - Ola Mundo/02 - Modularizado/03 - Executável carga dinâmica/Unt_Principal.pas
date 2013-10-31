@@ -37,7 +37,7 @@ uses
 
 procedure TForm3.Button1Click(Sender: TObject);
 const
-  C_PLUGIN = 'DC2013.OlaMundo.Pacote.bpl';
+  C_PLUGIN = 'DC2013.OlaMundo.Pacote.bpl.XE5';
 var
   hModulo       : NativeUInt;
   _ola_mundo    : function: string;
