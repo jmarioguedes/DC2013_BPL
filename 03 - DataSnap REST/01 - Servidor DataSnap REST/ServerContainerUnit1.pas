@@ -36,7 +36,7 @@ var
 
 implementation
 
-uses Winapi.Windows, System.Rtti;
+uses Winapi.Windows;
 
 {$R *.dfm}
 
@@ -57,8 +57,7 @@ begin
 
     for oClasse in _classes do
     begin
-      TSimpleServerClass.Create(Self, Self.DSServer1, oClasse,
-        'Invocation');
+      TSimpleServerClass.Create(Self, Self.DSServer1, oClasse, 'Invocation');
     end;
 
     iAchou := FindNext(rLocalizador);
